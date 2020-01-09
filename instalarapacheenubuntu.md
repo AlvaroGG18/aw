@@ -13,3 +13,12 @@ subrayado
 *cursiva*
 
 **negrita**
+
+### Firewall Linux
+$ sudo ufw app list
+
+Estamos en la empresa guru.com. Allí nos han pedido que creemos una pequña página web para probar el servidor Apache que ha instalado Accenture. Pero no tenemos interfaz gráfica.
+
+Como reiniciar el servidor Apache
+  $ sudo systemctl stop apache2
+  $ sudo systemctl start apache2
