@@ -6,3 +6,5 @@
 $ sudo apt-get install apache2
 
 sudo fuser -vki /var/lib/dpkg/lock
+
+=== subrayado
