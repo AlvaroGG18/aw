@@ -22,3 +22,13 @@ Estamos en la empresa guru.com. Allí nos han pedido que creemos una pequña pá
 Como reiniciar el servidor Apache
   $ sudo systemctl stop apache2
   $ sudo systemctl start apache2
+  
+  cd /var/www
+  mkdir example.com test.com
+  mkdir public_html (En cada arpeta)
+  index.html (Dentro de public_html)
+  comando largo
+  
+  cd /etc/apache/services-available
+  
+  
