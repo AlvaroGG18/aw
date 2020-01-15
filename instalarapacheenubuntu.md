@@ -32,3 +32,4 @@ Como reiniciar el servidor Apache
   cd /etc/apache/services-available
   
   
+4
