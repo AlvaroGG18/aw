@@ -27,9 +27,23 @@ Como reiniciar el servidor Apache
   mkdir example.com test.com
   mkdir public_html (En cada arpeta)
   index.html (Dentro de public_html)
-  comando largo
+  cp /etc/apache2/sites-available/000-default.conf /etc/apahce2/sites-available/example.com.conf
+  cp /etc/apache2/sites-available/000-default.conf /etc/apahce2/sites-available/test.com.conf
   
   cd /etc/apache/services-available
+  a2ensite example.com.conf
+  a2ensite test.com.conf
+  a2ensite 000-default.conf
+  systemctl reload apache2
+  service apache2 restart
+  
+  /etc
+  nano hosts -->  10.0.2.15 example.com
+                  10.0.2.15 test.com
+  a2ensite example.com.conf
+  a2ensite test.com.conf
+  service apache2 stop
+  service apache2 start
   
   
-4
+  
